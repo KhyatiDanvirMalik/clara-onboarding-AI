@@ -34,14 +34,3 @@ clara-onboarding-pipeline/
 └── README.md                    # Setup and architecture documentation
 
 ```
-Setup InstructionsEnsure Python 3.10+ is installed on your system.Clone this repository and navigate into the root directory.Create and activate a virtual environment:Bashpython -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
-Install the required dependencies:Bashpip install -r requirements.txt
-Set your Groq API key as an environment variable (Required to execute the free-tier LLM calls):Bashexport GROQ_API_KEY="gsk_your_key_here" # Mac/Linux
-$env:GROQ_API_KEY="gsk_your_key_here"   # Windows PowerShell
-How to Plug in the Dataset FilesPlace the 6 demo transcripts (.txt files) in /data/demo_transcripts/.Place the 6 onboarding transcripts in /data/onboarding_transcripts/.Important: The filenames must exactly match across both folders to act as the account_id primary key (e.g., apexfire.txt in both folders).Execution: How to Run Locally1. Run the Batch ProcessorTo execute the pipeline end-to-end on the entire dataset, run:Bashcd scripts
-python run_batch.py
-Outputs are deterministically generated and stored in /outputs/accounts/<account_id>/. Inside each account folder, you will find v1_memo.json, v2_memo.json, changelog.json, and the final v2_agent_spec.json.2. Launch the UI DashboardTo view the structural diffs, versioning, and summary metrics via the web UI:Bash# Ensure you are in the root project directory
-streamlit run app.py
-
