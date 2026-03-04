@@ -1,0 +1,32 @@
+{
+  "company_name": "Apex Fire Protection",
+  "business_hours": {
+    "days": "Monday through Friday",
+    "start": "8:00 AM",
+    "end": "5:00 PM",
+    "timezone": "Eastern Time"
+  },
+  "office_address": "",
+  "services_supported": [
+    "sprinkler system installation",
+    "sprinkler system service",
+    "fire alarm service"
+  ],
+  "emergency_definition": [
+    "active sprinkler leak",
+    "pipe break"
+  ],
+  "emergency_routing_rules": "Transfer directly to our emergency dispatch number",
+  "non_emergency_routing_rules": "office staff answers calls and creates service tickets",
+  "call_transfer_rules": "The AI should collect the caller\u2019s name, phone number, and address and notify dispatch",
+  "integration_constraints": "never create sprinkler jobs automatically in ServiceTrade",
+  "after_hours_flow_summary": "office phones forward to a technician",
+  "office_hours_flow_summary": "office staff answers calls and creates service tickets",
+  "questions_or_unknowns": [
+    "office_address",
+    "services_supported",
+    "office_hours_flow_summary"
+  ],
+  "notes": "",
+  "account_id": "apexfire"
+}

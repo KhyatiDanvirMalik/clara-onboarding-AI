@@ -1,0 +1,31 @@
+{
+  "company_name": "Apex Fire Protection",
+  "business_hours": {
+    "days": "Monday to Friday",
+    "start": "8",
+    "end": "5",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "sprinkler system installation",
+    "sprinkler system service",
+    "fire alarm service"
+  ],
+  "emergency_definition": [
+    "sprinkler head breakage",
+    "pipe leaks"
+  ],
+  "emergency_routing_rules": "forward to whoever is on call",
+  "non_emergency_routing_rules": "office staff answers calls and creates service tickets",
+  "call_transfer_rules": "Clara could collect the caller's name, phone number, and issue and route the call appropriately",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "office phones forward to a technician",
+  "office_hours_flow_summary": "office staff answers calls and creates service tickets",
+  "questions_or_unknowns": [
+    "office address",
+    "timezone"
+  ],
+  "notes": "",
+  "account_id": "apexfire"
+}
