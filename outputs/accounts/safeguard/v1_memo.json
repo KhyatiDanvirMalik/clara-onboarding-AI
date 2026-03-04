@@ -1,0 +1,30 @@
+{
+  "company_name": "SafeGuard Alarm Systems",
+  "business_hours": {
+    "days": "Monday to Friday",
+    "start": "9:00 AM",
+    "end": "5:00 PM",
+    "timezone": "Unknown"
+  },
+  "office_address": "",
+  "services_supported": [
+    "Fire alarm inspections",
+    "Monitoring issues",
+    "Alarm faults"
+  ],
+  "emergency_definition": [
+    "Constantly triggering alarms"
+  ],
+  "emergency_routing_rules": "Emergency line",
+  "non_emergency_routing_rules": "Office staff answer calls and schedule service",
+  "call_transfer_rules": "Clara could help by identifying emergency situations and transferring calls immediately",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "Calls go to emergency line",
+  "office_hours_flow_summary": "Office staff answer calls and schedule service",
+  "questions_or_unknowns": [
+    "Business hours timezone",
+    "Office address"
+  ],
+  "notes": "",
+  "account_id": "safeguard"
+}

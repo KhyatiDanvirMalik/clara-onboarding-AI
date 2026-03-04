@@ -1,0 +1,31 @@
+{
+  "company_name": "SafeGuard Alarm Systems",
+  "business_hours": {
+    "days": "Monday through Friday",
+    "start": "8:30 AM",
+    "end": "5 PM",
+    "timezone": "Eastern Time"
+  },
+  "office_address": "",
+  "services_supported": [
+    "Fire alarm inspections",
+    "Monitoring issues",
+    "Alarm faults"
+  ],
+  "emergency_definition": [
+    "Fire alarms that are continuously triggering",
+    "system failures"
+  ],
+  "emergency_routing_rules": "Transfer to the emergency support line",
+  "non_emergency_routing_rules": "Collect information and schedule service",
+  "call_transfer_rules": "Collect contact details and escalate to dispatch",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "Calls go to emergency line",
+  "office_hours_flow_summary": "Office staff answer calls and schedule service",
+  "questions_or_unknowns": [
+    "office_address",
+    "services_supported"
+  ],
+  "notes": "",
+  "account_id": "safeguard"
+}
