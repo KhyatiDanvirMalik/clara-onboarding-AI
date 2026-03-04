@@ -1,0 +1,30 @@
+{
+  "company_name": "Metro Sprinkler Services",
+  "business_hours": {
+    "days": "Monday through Friday",
+    "start": "8am",
+    "end": "4:30pm",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "sprinkler inspections",
+    "repairs",
+    "leaks"
+  ],
+  "emergency_definition": [
+    "continuous water flow"
+  ],
+  "emergency_routing_rules": "forward calls to the technician on call",
+  "non_emergency_routing_rules": "collect caller info first",
+  "call_transfer_rules": "transfer after collecting caller info",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "forward calls to the technician on call",
+  "office_hours_flow_summary": "collect caller info first",
+  "questions_or_unknowns": [
+    "office address",
+    "timezone"
+  ],
+  "notes": "",
+  "account_id": "metrosprinkler"
+}

@@ -1,0 +1,33 @@
+{
+  "company_name": "Metro Sprinkler Services",
+  "business_hours": {
+    "days": "Monday to Friday",
+    "start": "8 AM",
+    "end": "4:30 PM",
+    "timezone": "Mountain Time"
+  },
+  "office_address": "",
+  "services_supported": [
+    "sprinkler inspections",
+    "repairs",
+    "leaks"
+  ],
+  "emergency_definition": [
+    "Any uncontrolled sprinkler leak"
+  ],
+  "emergency_routing_rules": "Transfer immediately to the on-call technician",
+  "non_emergency_routing_rules": "collect caller info first",
+  "call_transfer_rules": "transfer after collecting caller info",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "forward calls to the technician on call",
+  "office_hours_flow_summary": "collect caller info first",
+  "questions_or_unknowns": [
+    "office_address",
+    "services_supported",
+    "call_transfer_rules",
+    "integration_constraints",
+    "office_hours_flow_summary"
+  ],
+  "notes": "",
+  "account_id": "metrosprinkler"
+}
