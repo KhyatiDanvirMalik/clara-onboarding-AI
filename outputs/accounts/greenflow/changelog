@@ -1,0 +1,61 @@
+{
+  "values_changed": {
+    "root['company_name']": {
+      "new_value": "",
+      "old_value": "GreenFlow HVAC"
+    },
+    "root['business_hours']['start']": {
+      "new_value": "8 AM",
+      "old_value": "9:00 AM"
+    },
+    "root['business_hours']['end']": {
+      "new_value": "6 PM",
+      "old_value": "5:00 PM"
+    },
+    "root['business_hours']['timezone']": {
+      "new_value": "Central Time",
+      "old_value": ""
+    },
+    "root['emergency_routing_rules']": {
+      "new_value": "Transfer to the on-call technician",
+      "old_value": "Route to on-call technician"
+    },
+    "root['non_emergency_routing_rules']": {
+      "new_value": "Collect the request and schedule a callback",
+      "old_value": "Office team answers and schedules jobs"
+    },
+    "root['call_transfer_rules']": {
+      "new_value": "Collect caller details and send them to dispatch",
+      "old_value": ""
+    },
+    "root['after_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "Calls go to voicemail, then we call them back"
+    },
+    "root['office_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "Office team answers and schedules jobs"
+    },
+    "root['questions_or_unknowns'][1]": {
+      "new_value": "services_supported",
+      "old_value": "Office address"
+    },
+    "root['questions_or_unknowns'][0]": {
+      "new_value": "office_address",
+      "old_value": "Timezone"
+    },
+    "root['emergency_definition'][0]": {
+      "new_value": "Loss of heating or cooling in commercial buildings",
+      "old_value": "Commercial building loses AC or heating"
+    }
+  },
+  "iterable_item_added": {
+    "root['questions_or_unknowns'][2]": "integration_constraints",
+    "root['questions_or_unknowns'][3]": "office_hours_flow_summary"
+  },
+  "iterable_item_removed": {
+    "root['services_supported'][0]": "HVAC repair requests",
+    "root['services_supported'][1]": "maintenance appointments",
+    "root['services_supported'][2]": "installation inquiries"
+  }
+}
