@@ -1,0 +1,64 @@
+{
+  "values_changed": {
+    "root['company_name']": {
+      "new_value": "",
+      "old_value": "SafeGuard Alarm Systems"
+    },
+    "root['business_hours']['days']": {
+      "new_value": "Monday through Friday",
+      "old_value": "Monday to Friday"
+    },
+    "root['business_hours']['start']": {
+      "new_value": "8:30 AM",
+      "old_value": "9:00 AM"
+    },
+    "root['business_hours']['end']": {
+      "new_value": "5 PM",
+      "old_value": "5:00 PM"
+    },
+    "root['business_hours']['timezone']": {
+      "new_value": "Eastern Time",
+      "old_value": "Unknown"
+    },
+    "root['emergency_routing_rules']": {
+      "new_value": "Transfer to the emergency support line",
+      "old_value": "Emergency line"
+    },
+    "root['non_emergency_routing_rules']": {
+      "new_value": "Collect information and schedule service",
+      "old_value": "Office staff answer calls and schedule service"
+    },
+    "root['call_transfer_rules']": {
+      "new_value": "Collect contact details and escalate to dispatch",
+      "old_value": "Clara could help by identifying emergency situations and transferring calls immediately"
+    },
+    "root['after_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "Calls go to emergency line"
+    },
+    "root['office_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "Office staff answer calls and schedule service"
+    },
+    "root['questions_or_unknowns'][1]": {
+      "new_value": "services_supported",
+      "old_value": "Office address"
+    },
+    "root['questions_or_unknowns'][0]": {
+      "new_value": "office_address",
+      "old_value": "Business hours timezone"
+    },
+    "root['emergency_definition'][0]": {
+      "new_value": "Fire alarms that are continuously triggering",
+      "old_value": "Constantly triggering alarms"
+    }
+  },
+  "iterable_item_added": {
+    "root['emergency_definition'][1]": "system failures"
+  },
+  "iterable_item_removed": {
+    "root['services_supported'][0]": "Fire alarm inspections",
+    "root['services_supported'][1]": "Monitoring issues",
+    "root['services_supported'][2]": "Alarm faults"
+  }
+}
