@@ -1,0 +1,66 @@
+{
+  "values_changed": {
+    "root['company_name']": {
+      "new_value": "",
+      "old_value": "Metro Sprinkler Services"
+    },
+    "root['business_hours']['days']": {
+      "new_value": "Monday to Friday",
+      "old_value": "Monday through Friday"
+    },
+    "root['business_hours']['start']": {
+      "new_value": "8 AM",
+      "old_value": "8am"
+    },
+    "root['business_hours']['end']": {
+      "new_value": "4:30 PM",
+      "old_value": "4:30pm"
+    },
+    "root['business_hours']['timezone']": {
+      "new_value": "Mountain Time",
+      "old_value": ""
+    },
+    "root['emergency_routing_rules']": {
+      "new_value": "Transfer immediately to the on-call technician",
+      "old_value": "forward calls to the technician on call"
+    },
+    "root['non_emergency_routing_rules']": {
+      "new_value": "",
+      "old_value": "collect caller info first"
+    },
+    "root['call_transfer_rules']": {
+      "new_value": "",
+      "old_value": "transfer after collecting caller info"
+    },
+    "root['after_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "forward calls to the technician on call"
+    },
+    "root['office_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "collect caller info first"
+    },
+    "root['questions_or_unknowns'][1]": {
+      "new_value": "services_supported",
+      "old_value": "timezone"
+    },
+    "root['questions_or_unknowns'][0]": {
+      "new_value": "office_address",
+      "old_value": "office address"
+    },
+    "root['emergency_definition'][0]": {
+      "new_value": "Any uncontrolled sprinkler leak",
+      "old_value": "continuous water flow"
+    }
+  },
+  "iterable_item_added": {
+    "root['questions_or_unknowns'][2]": "call_transfer_rules",
+    "root['questions_or_unknowns'][3]": "integration_constraints",
+    "root['questions_or_unknowns'][4]": "office_hours_flow_summary"
+  },
+  "iterable_item_removed": {
+    "root['services_supported'][0]": "sprinkler inspections",
+    "root['services_supported'][1]": "repairs",
+    "root['services_supported'][2]": "leaks"
+  }
+}
