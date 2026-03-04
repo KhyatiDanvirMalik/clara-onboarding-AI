@@ -1,0 +1,72 @@
+{
+  "values_changed": {
+    "root['company_name']": {
+      "new_value": "",
+      "old_value": "Apex Fire Protection"
+    },
+    "root['business_hours']['days']": {
+      "new_value": "Monday through Friday",
+      "old_value": "Monday to Friday"
+    },
+    "root['business_hours']['start']": {
+      "new_value": "8:00 AM",
+      "old_value": "8"
+    },
+    "root['business_hours']['end']": {
+      "new_value": "5:00 PM",
+      "old_value": "5"
+    },
+    "root['business_hours']['timezone']": {
+      "new_value": "Eastern Time",
+      "old_value": ""
+    },
+    "root['emergency_routing_rules']": {
+      "new_value": "Transfer directly to our emergency dispatch number",
+      "old_value": "forward to whoever is on call"
+    },
+    "root['non_emergency_routing_rules']": {
+      "new_value": "",
+      "old_value": "office staff answers calls and creates service tickets"
+    },
+    "root['call_transfer_rules']": {
+      "new_value": "The AI should collect the caller\u2019s name, phone number, and address and notify dispatch",
+      "old_value": "Clara could collect the caller's name, phone number, and issue and route the call appropriately"
+    },
+    "root['integration_constraints']": {
+      "new_value": "never create sprinkler jobs automatically in ServiceTrade",
+      "old_value": ""
+    },
+    "root['after_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "office phones forward to a technician"
+    },
+    "root['office_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "office staff answers calls and creates service tickets"
+    },
+    "root['questions_or_unknowns'][1]": {
+      "new_value": "services_supported",
+      "old_value": "timezone"
+    },
+    "root['emergency_definition'][0]": {
+      "new_value": "active sprinkler leak",
+      "old_value": "sprinkler head breakage"
+    },
+    "root['questions_or_unknowns'][0]": {
+      "new_value": "office_address",
+      "old_value": "office address"
+    },
+    "root['emergency_definition'][1]": {
+      "new_value": "pipe break",
+      "old_value": "pipe leaks"
+    }
+  },
+  "iterable_item_added": {
+    "root['questions_or_unknowns'][2]": "office_hours_flow_summary"
+  },
+  "iterable_item_removed": {
+    "root['services_supported'][0]": "sprinkler system installation",
+    "root['services_supported'][1]": "sprinkler system service",
+    "root['services_supported'][2]": "fire alarm service"
+  }
+}
