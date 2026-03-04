@@ -1,0 +1,32 @@
+{
+  "company_name": "BrightLine Electrical",
+  "business_hours": {
+    "days": "Monday to Friday",
+    "start": "9 AM",
+    "end": "5 PM",
+    "timezone": "Pacific Time"
+  },
+  "office_address": "",
+  "services_supported": [
+    "electrical repairs",
+    "panel upgrades",
+    "inspection services"
+  ],
+  "emergency_definition": [
+    "Power outage",
+    "burning smell",
+    "exposed live wires"
+  ],
+  "emergency_routing_rules": "Transfer to the service manager",
+  "non_emergency_routing_rules": "Collect information and create a service request",
+  "call_transfer_rules": "Collect caller details and promise a quick callback if transfer fails",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "calls go to voicemail unless forwarded to service manager",
+  "office_hours_flow_summary": "calls answered during 9 to 5 weekdays",
+  "questions_or_unknowns": [
+    "office address",
+    "timezone"
+  ],
+  "notes": "",
+  "account_id": "brightline"
+}

@@ -1,0 +1,31 @@
+{
+  "company_name": "BrightLine Electrical",
+  "business_hours": {
+    "days": "weekdays",
+    "start": "9",
+    "end": "5",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "electrical repairs",
+    "panel upgrades",
+    "inspection services"
+  ],
+  "emergency_definition": [
+    "power outages",
+    "exposed wiring"
+  ],
+  "emergency_routing_rules": "forwarded to service manager",
+  "non_emergency_routing_rules": "voicemail",
+  "call_transfer_rules": "Clara screens the call and routes emergencies",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "calls go to voicemail unless forwarded to service manager",
+  "office_hours_flow_summary": "calls answered during 9 to 5 weekdays",
+  "questions_or_unknowns": [
+    "office address",
+    "timezone"
+  ],
+  "notes": "",
+  "account_id": "brightline"
+}
