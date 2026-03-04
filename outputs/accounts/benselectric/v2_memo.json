@@ -1,0 +1,32 @@
+{
+  "company_name": "G&M Pressure washing",
+  "business_hours": {
+    "days": "",
+    "start": "",
+    "end": "",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [],
+  "emergency_definition": [],
+  "emergency_routing_rules": "",
+  "non_emergency_routing_rules": "",
+  "call_transfer_rules": "",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [
+    "Business hours",
+    "Office address",
+    "Services supported",
+    "Emergency definition",
+    "Emergency routing rules",
+    "Non-emergency routing rules",
+    "Call transfer rules",
+    "Integration constraints",
+    "After hours flow summary",
+    "Office hours flow summary"
+  ],
+  "notes": "",
+  "account_id": "benselectric"
+}
