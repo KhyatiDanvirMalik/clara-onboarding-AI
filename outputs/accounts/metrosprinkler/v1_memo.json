@@ -1,0 +1,30 @@
+{
+  "company_name": "GreenFlow HVAC",
+  "business_hours": {
+    "days": "Monday to Friday",
+    "start": "9:00 AM",
+    "end": "5:00 PM",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "HVAC repair requests",
+    "maintenance appointments",
+    "installation inquiries"
+  ],
+  "emergency_definition": [
+    "Commercial building loses AC or heating"
+  ],
+  "emergency_routing_rules": "Route to on-call technician",
+  "non_emergency_routing_rules": "Office team answers and schedules jobs",
+  "call_transfer_rules": "",
+  "integration_constraints": "",
+  "after_hours_flow_summary": "Calls go to voicemail, then we call them back",
+  "office_hours_flow_summary": "Office team answers and schedules jobs",
+  "questions_or_unknowns": [
+    "Timezone",
+    "Office address"
+  ],
+  "notes": "",
+  "account_id": "greenflow"
+}
