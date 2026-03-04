@@ -1,0 +1,62 @@
+{
+  "values_changed": {
+    "root['company_name']": {
+      "new_value": "",
+      "old_value": "BrightLine Electrical"
+    },
+    "root['business_hours']['days']": {
+      "new_value": "Monday to Friday",
+      "old_value": "weekdays"
+    },
+    "root['business_hours']['start']": {
+      "new_value": "9 AM",
+      "old_value": "9"
+    },
+    "root['business_hours']['end']": {
+      "new_value": "5 PM",
+      "old_value": "5"
+    },
+    "root['business_hours']['timezone']": {
+      "new_value": "Pacific Time",
+      "old_value": ""
+    },
+    "root['emergency_routing_rules']": {
+      "new_value": "Transfer to the service manager",
+      "old_value": "forwarded to service manager"
+    },
+    "root['non_emergency_routing_rules']": {
+      "new_value": "Collect information and create a service request",
+      "old_value": "voicemail"
+    },
+    "root['call_transfer_rules']": {
+      "new_value": "Collect caller details and promise a quick callback if transfer fails",
+      "old_value": "Clara screens the call and routes emergencies"
+    },
+    "root['after_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "calls go to voicemail unless forwarded to service manager"
+    },
+    "root['office_hours_flow_summary']": {
+      "new_value": "",
+      "old_value": "calls answered during 9 to 5 weekdays"
+    },
+    "root['emergency_definition'][0]": {
+      "new_value": "Power outage",
+      "old_value": "power outages"
+    },
+    "root['emergency_definition'][1]": {
+      "new_value": "burning smell",
+      "old_value": "exposed wiring"
+    }
+  },
+  "iterable_item_added": {
+    "root['emergency_definition'][2]": "exposed live wires"
+  },
+  "iterable_item_removed": {
+    "root['services_supported'][0]": "electrical repairs",
+    "root['services_supported'][1]": "panel upgrades",
+    "root['services_supported'][2]": "inspection services",
+    "root['questions_or_unknowns'][0]": "office address",
+    "root['questions_or_unknowns'][1]": "timezone"
+  }
+}
