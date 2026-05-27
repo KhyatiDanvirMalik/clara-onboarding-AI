@@ -1,7 +1,7 @@
-# Clara Answers - Zero-Cost Onboarding Automation Pipeline
+# Clara Answers - Onboarding Automation Pipeline
 
 ## Overview
-This repository contains a zero-cost, end-to-end Python automation pipeline built for Clara AI. It converts messy, real-world customer conversations into deployable Retell AI Voice Agents. The system processes 6 demo calls (Version 1) and 6 onboarding calls (Version 2), calculates structural JSON diffs, and presents the metrics and version history via a Streamlit web dashboard.
+This repository contains an end-to-end Python automation pipeline built for Clara AI. It converts messy, real-world customer conversations into deployable Retell AI Voice Agents. The system processes 6 demo calls (Version 1) and 6 onboarding calls (Version 2), calculates structural JSON diffs, and presents the metrics and version history via a Streamlit web dashboard.
 
 This project was engineered to strictly adhere to a **zero-spend** constraint while maintaining high reliability, fast inference, and robust edge-case handling (such as truncating massive hour-long transcripts to respect free-tier API limits).
 
